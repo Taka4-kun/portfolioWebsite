@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-import pic3 from '../assets/pic3.jpg'
+//import pic3 from '../assets/pic3.jpg'//
 
 const Hero = () => {
     return (
@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className='md:text-6xl sm:text-5xl text-3xl font-bold md:py-6'>CASEY T. ANDERSON</h1>
                 <div className='flex justify-center items-center'>
                     <p className='md:text-4xl sm:text-3xl text-xl font-bold py-4'>and I have a passion for</p>
-                    <Typed className=' md:pl-4md:text-4xl sm:text-3xl text-xl font-bold pl-2 text-blue-600' strings={['Finance', 'Web Developement', 'Problem Solving', 'Economics', 'Project Management', 'Leadership']} typeSpeed={120} backSpeed={130} loop />
+                    <Typed className=' md:pl-4md:text-4xl sm:text-3xl text-xl font-bold pl-2 text-blue-600' strings={['Finance', 'Web Developement', 'Problem Solving', 'Economics', 'Creative Idea', 'Leadership', 'Entrepreneurship']} typeSpeed={120} backSpeed={130} loop />
                 </div>
                 <p className='md:text-2xl text-xl font-bold text-gray-500'>with high ethical standards and a passion for learning</p>
             </div>
